@@ -7,7 +7,13 @@ Linguagem: C
 ## Algoritmos implementados
 
 1. Kruskal
--Descrição
+-Descrição:
 
 2. Ford-Fulkerson
--Descrição
+-Descrição:
+
+3. Prim
+-Descrição:
+
+4. Djikstra
+-Descrição:
