@@ -54,8 +54,6 @@ int main(int argc, char *argv[])
   }
   else
   {
-
-    printf("\nRESPOSTA: \n\n");
     if (lastV != 0)
     {
       printf("%d\n", distancia[lastV - 1]);
@@ -71,8 +69,6 @@ int main(int argc, char *argv[])
         }
       }
     }
-
-    printf("\n\n");
   }
 
   return 0;

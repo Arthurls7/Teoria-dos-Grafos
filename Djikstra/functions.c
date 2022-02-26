@@ -133,10 +133,10 @@ void output(char arquivo[], int LastV, int InitV, int distancia[], int nmr_verti
 {
 
   FILE *ptr = fopen(arquivo, "w");
-  fprintf(ptr, "RESPOSTA: \n\n");
   if (LastV != 0)
   {
     fprintf(ptr, "%d\n", distancia[LastV - 1]);
+    return;
   }
   if (LastV == 0 && InitV != 0)
   {
