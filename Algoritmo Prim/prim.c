@@ -53,12 +53,11 @@ int main(int argc, char *argv[])
     {
       for (int i = 0; i < nmr_vertices; i++)
       {
-        fprintf(saida, "(%d,%d)", pai[i] + 1, i + 1);
+        fprintf(saida, "(%d,%d)\n", pai[i] + 1, i + 1);
       }
-      fprintf(saida, "\n");
+    } else{
+    	fprintf(saida, "%d\n", TOTAL);
     }
-
-    fprintf(saida, "%d\n", TOTAL);
   }
   else
   {
@@ -66,12 +65,11 @@ int main(int argc, char *argv[])
     {
       for (int i = 0; i < nmr_vertices; i++)
       {
-        printf("(%d,%d)", pai[i] + 1, i + 1);
+        printf("(%d,%d)\n", pai[i] + 1, i + 1);
       }
-      printf("\n");
+    } else{
+    	printf("%d\n", TOTAL);
     }
-
-    printf("%d\n", TOTAL);
   }
 
   return 0;
